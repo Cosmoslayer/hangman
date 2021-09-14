@@ -308,8 +308,22 @@ files:
         CoffeeMachineTest('hangman.hangman').run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/69/stages/378/implement#comment
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: Tue, 14 Sep 2021 11:36:17 UTC
-record: -1
+  message: |-
+    Wrong answer in test #1
+
+    Cannot parse this block - it contains spaces in the first line, but shouldn't
+
+    H A N G M A N
+    Type "play" to play the game, "exit" to quit:
+
+    Please find below the output of your program during this failed test.
+    Note that the '>' character indicates the beginning of the input line.
+
+    ---
+
+    H A N G M A N
+    Type "play" to play the game, "exit" to quit:> z
+  time: Tue, 14 Sep 2021 11:55:12 UTC
+record: 7
